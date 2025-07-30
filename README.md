@@ -2,8 +2,9 @@
 
 A clean and modular Nuxt 3 + TypeScript dashboard application with user and report management, using Pinia for state, Tailwind CSS for styling, and composables for sorting, filtering, and pagination logic.
 
-📁 Project Structure
+## 📁 Project Structure
 
+```txt
 ├── components/         # Reusable UI components
 ├── composables/        # Reusable logic (pagination, sorting, filters)
 ├── interfaces/         # TypeScript interfaces for data models
@@ -18,7 +19,8 @@ A clean and modular Nuxt 3 + TypeScript dashboard application with user and repo
 ├── app.vue             # Nuxt root component
 ├── nuxt.config.ts      # Nuxt configuration
 ├── tailwind.config.ts  # Tailwind config
-└── tsconfig.json       # TypeScript config
+└── tsconfig.json       # TypeScript configuration
+
 
 🔍 Features
 
@@ -31,6 +33,7 @@ Filtering: Combined search, role, and status filters for user and report data.
 Admin Features: Admin users can edit/delete users with role-based access shown in UI.
 
 Responsive Table UI: Accessible and mobile-friendly table layout using Tailwind.
+
 
 🤔 Decisions & Architecture Notes
 
